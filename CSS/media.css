@@ -9,6 +9,10 @@
         padding: 5px;
     }
 
+    div div img {
+        width: 5vw;
+    }
+
     .daniel,
     .patrick {
         grid-column: span 1;

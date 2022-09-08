@@ -1,0 +1,42 @@
+@media (max-width: 767px) {
+    body {
+        width: 50%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    body div {
+        padding: 5px;
+    }
+
+    .daniel,
+    .patrick {
+        grid-column: span 1;
+    }
+
+    .kira {
+        grid-row: span 1;
+    }
+}
+
+/* samsung galaxy fold */
+@media (max-width: 309px) {}
+
+/* Media Query for Mobile Devices */
+@media (min-width: 310px) and (max-width: 480px) {}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 849px) {}
+
+@media (min-width: 850px) and (max-width: 1024px) {}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) and (max-width: 1399px) {}
+
+@media (min-width: 1400px) {}
